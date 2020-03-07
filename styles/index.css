@@ -1,0 +1,89 @@
+body {
+    height: 100vh;
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 146px;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 146px;
+  }
+
+.grit__container {
+    display: grid;
+    padding: 24px;
+    background-color: white;
+    grid-gap: 24px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+  }
+
+  .items__one {
+      background-color: pink; 
+      grid-area: 1 /1/4/3; 
+  }
+
+  .items__two {
+      background-color:  #8cd9b3; 
+      grid-area: 4 /1/7/3; 
+  }
+
+  .items__three {
+      background-color:	 #e6ccff; 
+      grid-area: 7 /1/11/3; 
+  }
+
+  .items__four {
+      background-color: #e6ccff;
+      grid-area: 1 /3/7/5; 
+  }
+
+  .items__five {
+    background-color: pink;
+    grid-area: 7 /3/9/4; 
+  }
+
+  .items__six {
+      background-color:  #8cd9b3; 
+      grid-area: 9 /3/11/4; 
+  }
+
+  .items__seven {
+      background-color:  #8cd9b3; 
+      grid-area: 7 /4/11/6; 
+  }
+
+  .itmes__eight {
+      background-color: #e6ccff;
+      grid-area: 1/5/3/7;
+  }
+
+  .itmes__nine {
+      background-color: pink; 
+      grid-area: 3/5/5/7;
+  }
+
+  .itmes__ten {
+      background-color:  #e6ccff; 
+      grid-area: 5/5/7/7;
+  }
+
+  .itmes__eleven {
+    background-color: pink; 
+    grid-area: 7/6/11/6; 
+  }
+
+  .my__footer {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    font-size: 200%;
+    padding-left: 24px;
+    background-color: 	#e6ccff;
+    color: white; 
+  }
+ 
